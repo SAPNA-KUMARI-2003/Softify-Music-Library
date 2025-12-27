@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>softify - Web Player: Music for everyone</title>
+  </head>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/utility.css" />
+  <link rel="icon" type="image/png" href="favicon.ico" />
+
+  <body>
+    <div class="container flex rounded">
+      <div class="left border rounded">
+        <div class="close">
+          <img class="invert" src="img/close.svg" alt="" />
+        </div>
+
+        <div class="home border bg-grey rounded p-1 m-1">
+          <ul>
+            <!-- <li><img class="logo" src="img/logo1.png" alt="logo"></li> -->
+            <li><img class="invert" src="img/home.svg" alt="home" />Home</li>
+            <li>
+              <img class="invert" src="img/search.svg" alt="search" />Search
+            </li>
+          </ul>
+        </div>
+        <div class="library border li bg-grey rounded p-1 m-1">
+          <div class="heading">
+            <img class="invert" src="img/library.svg" alt="library" />
+            <p>Your Library</p>
+          </div>
+          <div class="songlist">
+            <ul></ul>
+          </div>
+          <!-- left footer elemnts -->
+          <div class="footer">
+            <div class="felements">
+              <div>
+                <a
+                  href="https://www.spotify.com/in-en/legal/"
+                  data-encore-id="textLink"
+                >
+                  <span data-encore-id="type">Legal</span>
+                </a>
+              </div>
+              <div>
+                <a
+                  href="https://www.spotify.com/in-en/legal/cookies-policy/"
+                  data-encore-id="textLink"
+                >
+                  <span data-encore-id="type">Cookies</span>
+                </a>
+              </div>
+              <a
+                draggable="false"
+                href="https://www.spotify.com/legal/cookies-policy/"
+                target="_blank"
+                rel="noopener"
+              >
+                <span data-encore-id="text">Cookies</span>
+              </a>
+            </div>
+            <div class="felements">
+              <div>
+                <a
+                  href="https://www.spotify.com/in-en/safetyandprivacy/"
+                  data-encore-id="textLink"
+                >
+                  <span data-encore-id="type">Safety &amp; Privacy Center</span>
+                </a>
+              </div>
+              <div>
+                <a
+                  href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"
+                  data-encore-id="textLink"
+                >
+                  <span data-encore-id="type">About Ads</span>
+                </a>
+              </div>
+            </div>
+            <div class="felements">
+              <div>
+                <a
+                  href="https://www.spotify.com/in-en/legal/privacy-policy/"
+                  data-encore-id="textLink"
+                >
+                  <span data-encore-id="type">Privacy Policy</span>
+                </a>
+              </div>
+              <div>
+                <a
+                  href="https://www.spotify.com/in-en/accessibility/"
+                  data-encore-id="textLink"
+                >
+                  <span data-encore-id="type">Accessibility</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- rigth box start -->
+      <div class="right bg-grey rounded border">
+        <div class="header">
+          <div class="nav">
+            <div class="hameburgericon">
+              <img
+                class="invert hameburger"
+                width="40"
+                src="img/hameburger.svg"
+                alt=""
+              />
+
+               
+
+            </div>
+            <div class="yourlib">
+             Albums
+            </div>
+          </div>
+           
+          <div class="buttons">
+            <!-- <button class="signup-btn">Sign up</button> -->
+            <!-- <button class="login-btn">Log in</button> -->
+            <img class="logo" src="img/logo2.png" alt="logo" />
+          </div>
+        </div>
+        <!-- spotify-playlist "Popular artists" -->
+        <div class="spotify-playlist">
+          <!-- <h1>Popular artists</h1> -->
+
+          <div class="cardContainer">
+            <h1>Popular artists</h1>
+          </div>
+
+          <div class="playbar">
+            <div class="seekbar">
+              <div class="circle"></div>
+            </div>
+
+            <div class="abovebar">
+              <div class="songinfo"></div>
+              <div class="songbuttons">
+                <img id="previous" src="img/previous-song.svg" alt="|" />
+                <img id="play" src="img/play.svg" alt="O" />
+                <img id="next" src="img/next-song.svg" alt="|>" />
+              </div>
+
+              <div class="speaker">
+                <div class="volume">
+                  <img src="img/volume.svg" alt="" />
+                  <div class="range">
+                    <input type="range" name="volume" />
+                  </div>
+                </div>
+                <div class="songtime"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
