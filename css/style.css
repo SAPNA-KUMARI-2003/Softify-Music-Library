@@ -347,7 +347,7 @@ body {
 .songlist {
   height: 54vh;
   overflow: auto;
-  border: 3.4px solid #000000;
+  /* border: 3.4px solid #000000; */
   border-radius: 4px;
   /* background-color: #5e5b5b; */
 }
